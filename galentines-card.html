@@ -1,0 +1,41 @@
+<!---Galentines Card--->
+<!-- I make a Galentine's Day card using HTML, CSS, and JavaScript. --->
+<!--- With GIF image that is made by python --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <title> Galentine's Card</title>
+</head>
+<body>
+  <!---Galentine's Card--->
+              <!--With click me button that shows a message for specific people with their input name-->
+  <div class="card">
+    <h1>Happy Galentine's Day!</h1>
+       
+       <p>To my amazing friends, thank you for being the incredible</p>
+                                                                 
+  <!--GIF Default--->
+  <img id="cardGif" src="Gif/output.gif" alt="Galentine's Day">
+
+ <!--Input the name for the people--->
+ <div class = "name-input"> 
+  <label for="name">Enter your name:</label>
+  <input type="text" id="name" name="name" class="name-input" placeholder="Your Name Here">
+</div>
+
+  <!--Button to show message--->
+  <button id="messageButton">Click Me!</button>
+
+  <!--Message that will be shown when button is clicked--->
+  <div id="message" class="message" style="display:none;">
+    <p>Dear <span id="userName"></span>,</p>
+    <p>Wishing you a day filled with love, laughter, and unforgettable memories. You are cherished beyond words!</p>
+  </div>
+  </div>
+  
+</body>
+<script src="script.js"></script>
+</html>
