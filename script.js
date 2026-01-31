@@ -15,7 +15,7 @@ const messageDiv = document.getElementById('message');
 const userNameSpan = document.getElementById('userName');
 const gifImg = document.getElementById('cardGif');
 
-// 💌 Personalized messages for each person
+//  Personalized messages for each person
 const messages = {
   "marga": 
     "Hi Marga! 💕 Keep shining with that same energy and positivity that lights up every room you’re in. Continue to love yourself — even more than those from your past who couldn’t see your true worth. Surround yourself with people who value you for who you are — not as a tool, not as a thing, but as someone whose smile heals and strengthens others. Keep being radiant and happy, because you deserve all the love and peace you give. 🌸 Happy lang, always!",
