@@ -92,3 +92,4 @@ input.addEventListener('keydown', (e) => {
 
 //  Button click event
 button.addEventListener('click', showPersonalMessage);
+
